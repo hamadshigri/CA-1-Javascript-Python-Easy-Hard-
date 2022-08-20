@@ -43,8 +43,9 @@ def quad_eq(x,y,z):
     # find two solutions
     first_sol = (-y-cmath.sqrt(result))/(2*x)
     second_sol = (-y+cmath.sqrt(result))/(2*x)
-    print('The solution of this quadratic equation is: ', first_sol, 'and', second_sol)
+    result = first_sol, second_sol
+    # print('The solution of this quadratic equation is: ', first_sol, 'and', second_sol)
+    return result
 
 
-quad_eq(a,b,c)
-
+print(quad_eq(a,b,c))
