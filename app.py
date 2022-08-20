@@ -39,7 +39,7 @@ c = 6
 
 def quad_eq(x,y,z):
     # calculate the discriminant
-    result = (y**2) - (4*x*z)
+    discriminant = (y**2) - (4*x*z)
     # find two solutions
     first_sol = (-y-cmath.sqrt(result))/(2*x)
     second_sol = (-y+cmath.sqrt(result))/(2*x)
